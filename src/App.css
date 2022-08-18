@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+body{
+  margin: 70px;
+}
+ @media  screen and (max-width:480px) {
+  body{
+    background-color: rgba(127, 255, 212, 0.356);
+  }
+ }

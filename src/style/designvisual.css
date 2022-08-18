@@ -1,0 +1,54 @@
+.visual-design{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    width:800px;
+    height:300px;
+    margin:auto;
+    padding-top: 40px;
+}
+
+.visual-image{
+    width: 100%;
+    height: 380px;
+    overflow:hidden;
+  }
+  .visual-image img {
+    height: 60%; 
+    width: 50%;
+  }
+
+  .visual-info{
+    text-align: left;
+    padding-right: 180px; 
+    padding-bottom:150px ;
+    width: 50%;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.visual-info p{
+  font-size: 8px;
+  width:150%;
+}
+
+.design-workshop p{
+    display: inline;
+    padding-right: 10px;
+  }
+
+  .visual-concept p{
+    display: inline;
+    padding-right: 10px;
+  }
+
+  .typography p{
+    display: inline;
+    padding-right: 10px;
+  }
+
+  @media  screen and (max-width:480px) {
+    body{
+      background-color: rgba(127, 255, 212, 0.356);
+    }
+   }

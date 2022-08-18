@@ -1,0 +1,37 @@
+.process{
+    align-items: center;
+    justify-items: center;
+    width:800px;
+    height:500px;
+    margin:auto;
+}
+.process-info p{
+    font-size: 10px;
+}
+.discovery-ux{
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.discovery-ux .ux{
+    padding-left: 400px;
+}
+.ui-application{
+    padding-top:60px ;
+}
+
+.process-image img{
+    width: 40px;
+    height: 40px;
+    border-radius:2%;
+}
+.process-image{
+    border: 1px dotted rgb(0, 60, 255);
+    border-radius: 60%;
+}
+@media  screen and (max-width:480px) {
+    body{
+      background-color: rgba(127, 255, 212, 0.356);
+    }
+}
